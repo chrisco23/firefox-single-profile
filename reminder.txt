@@ -1,0 +1,21 @@
+1. How to think about it going forward
+From now on, you can treat this like:
+
+A “config repo” that lives inside a Firefox profile.
+
+You do not need to remember the exact command sequences from earlier; you only need to remember four ideas:
+
+“This Firefox profile is version‑controlled; git lives inside it.”
+
+“Only git add prefs.js, user.js, userChrome.css, chrome/, and .gitignore.”
+
+“Never git add . in this directory.”
+
+“When I feel like I’ve made progress, git commit and git push.”
+
+Whenever you forget the syntax, you can always:
+
+text
+cd ~/.config/mozilla/firefox/uw54v1g7.clean-main
+git status
+That tells you what changed; then you just git add the files you care about and git commit.
