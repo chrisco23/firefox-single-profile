@@ -30,3 +30,48 @@ key3.db
 .DS_Store
 Thumbs.db
 *~
+
+# 06-08-2026
+# --- Add these NEW rules for missing Firefox junk ---
+# Lock files
+.parentlock
+lock
+
+# Binary/cache databases not in your original list
+cert9.db
+AlternateServices.bin
+SiteSecurityServiceState.bin
+bounce-tracking-protection.sqlite
+domain_to_categories.sqlite*
+storage-sync-v2.sqlite*
+suggest.sqlite*
+
+# Transient JSON files
+ExperimentStoreData.json
+broadcast-listeners.json
+notificationstore.json
+shield-preference-experiments.json
+signedInUser.json
+times.json
+handlers.json
+compatibility.ini
+pkcs11.txt
+persdict.dat
+enumerate_devices.txt
+serviceworker.txt
+autofill-profiles.json
+extension-preferences.json
+extension-settings.json
+feature-preferences.json
+
+# Directories to ignore
+crashes/
+features/
+gmp/
+gmp-gmpopenh264/
+gmp-widevinecdm/
+extension-store/
+extension-store-menus/
+settings/
+security_state/
+sessionstore-backups/
